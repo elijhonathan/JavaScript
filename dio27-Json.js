@@ -26,9 +26,6 @@ function generateInvoice(invoice)
   
 }
 
-
-
-
 // let name = "Eli"
 // let lastName = "Jhonathan"
 // let age = 31
