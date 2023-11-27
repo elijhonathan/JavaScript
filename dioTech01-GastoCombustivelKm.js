@@ -9,10 +9,11 @@ Você terá 3 variaveis. Sendo elas:
 Imprima no console o valor que será gasto de combustivel para realizar a viagem.
 */
 
-var precoCombustivel = 6.00;
+var precoCombustivel = 5.69;
 var gastoMedioLitroPorKm = 15;
 var distanciaViagem = 300;
 
-var valorTotalCombustivel = (distanciaViagem / gastoMedioLitroPorKm) * precoCombustivel
+var valorTotalCombustivel = (distanciaViagem / gastoMedioLitroPorKm) * precoCombustivel;
+valorTotalCombustivel = valorTotalCombustivel.toFixed(2);
 
-console.log(`O valor total gasto para fazer está viagem será R$ ${valorTotalCombustivel}`)
+console.log(`O valor total gasto para fazer está viagem será R$ ${valorTotalCombustivel}`);
